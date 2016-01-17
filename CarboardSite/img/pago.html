@@ -1,0 +1,412 @@
+
+<!-- saved from url=(0135)https://www.mercadopago.com/mlm/payments/ticket/helper?payment_id=1765898396&payment_method_reference_id=1682035651&caller_id=48291866# -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-15"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+<title>Recibo de Pago OXXO</title>
+
+<!-- Inline Styles for A/B Testing on OXXO MLM Payment
+	author: storres	 -->
+<style type="text/css">
+  html,
+  body {
+    height: 100%;
+    ">
+background-color: #f7f7f7;
+    margin: 0;
+  }
+
+  .oxxo-ticket-box {
+    font-family: Arial, Helvetica, "Nimbus Sans L", sans-serif;
+    text-align: center;
+    max-width: 360px;
+    margin: auto;
+    padding: 10px;
+  }
+
+  .oxxo-ticket-box-c {
+    font-family: Arial, Helvetica, "Nimbus Sans L", sans-serif;
+    text-align: center;
+    margin: auto;
+    max-width: initial;
+    padding: 0;
+  }
+
+  .oxxo-ticket-box-c2 {
+    font-family: Arial, Helvetica, "Nimbus Sans L", sans-serif;
+    text-align: center;
+    margin: auto;
+    max-width: initial;
+  }
+
+  .oxxo-ticket-header {
+    border-bottom: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+  }
+
+  .oxxo-ticket-header-border-none {
+    border-bottom: none;
+  }
+
+  .payment-info-container > .oxxo-ticket-header,
+  .payment-info-container-c > .oxxo-ticket-header {
+    display: none;
+  }
+
+  .oxxo-ticket-box h1.payment-info {
+    color: #383838;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.3;
+    padding: 0 6px;
+  }
+
+  .oxxo-ticket-box h1.payment-info.payment-info-c {
+    font-size: 20px;
+    padding: 20px 22px 20px;
+  }
+
+  .payment-info-container > h1.payment-info,
+  .payment-info-container-c > h1.payment-info,
+  .payment-info-container-c2 > h1.payment-info {
+    margin: 0 6px;
+    padding: 20px 6px 20px;
+  }
+
+  .oxxo-ticket-box .payment-reason,
+  .oxxo-ticket-box .payment-reason-c,
+  .oxxo-ticket-box .payment-price-c,
+  .oxxo-ticket-box .payment-reason-c2,
+  .oxxo-ticket-box .payment-price-c2,
+  .oxxo-ticket-box .payment-price {
+    text-align: left;
+    font-size: 14px;
+    color: #666;
+    padding: 0 20px;
+  }
+
+  .oxxo-ticket-box .payment-price {
+    font-size: 14px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+  }
+
+  .oxxo-ticket-box .payment-price-c,
+  .oxxo-ticket-box .payment-price-c2 {
+    font-size: 14px;
+    padding-right: 30px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .oxxo-ticket-box .payment-oxxo-tax {
+    font-size: 12px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    color: #999;
+    text-align: center;
+    padding-left: 20px;
+  }
+
+  .oxxo-ticket-box .payment-email-advice {
+    font-size: 11px;
+    text-align: center;
+    margin: 20px auto;
+    color: #999;
+  }
+
+  .oxxo-ticket-box .payment-price strong,
+  .oxxo-ticket-box .payment-price-c strong,
+  .oxxo-ticket-box .payment-price-c2 strong {
+    color: #333;
+    font-size: 14px;
+  }
+
+  .oxxo-ticket-box .payment-reason {
+    margin: 20px 0 0;
+  }
+
+  .oxxo-ticket-box .payment-reason-c,
+  .oxxo-ticket-box .payment-reason-c2 {
+    margin: 0;
+  }
+
+  .oxxo-ticket-box .payment-info-container {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    min-height: 50%;
+    margin-bottom: 20px;
+    padding: 0px 12px;
+  }
+
+  .oxxo-ticket-box .payment-info-container-c {
+    background-color: #fff;
+    min-height: 50%;
+    margin-bottom: 20px;
+    padding: 0px 12px 12px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .oxxo-ticket-box .payment-info-container-c2 {
+    background-color: #fff;
+    min-height: 50%;
+    padding: 0px 12px 12px;
+    max-width: 336px;
+    margin: 20px auto 20px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+  }
+
+  .oxxo-ticket-box .payment-barcode {
+    padding: 20px 0;
+  }
+
+  .oxxo-ticket-box .payment-barcode span{
+    margin: 0;
+    font-size: 12px;
+    font-family: monospace;
+  }
+
+  .oxxo-ticket-box .payment-code {
+    font-size: 28px;
+    color: #333;
+    line-height: 42px;
+    padding: 0 0 10px;
+    text-indent: 0;
+  }
+
+  .oxxo-ticket-box .payment-code-c2 {
+    font-size: 20px;
+    line-height: 42px;
+    color: #333;
+    margin: 0 5px;
+    padding: 3px 0;
+  }
+
+  .oxxo-ticket-box .payment-code-c {
+    font-size: 20px;
+    line-height: 42px;
+    color: #333;
+    margin: 0 6px;
+    padding: 0 0 10px;
+  }
+
+  .oxxo-ticket-box .payment-code span {
+    margin: 0 8px;
+    display: inline-block;
+  }
+
+  .oxxo-ticket-box .payment-code-c span {
+    background-color: #f7f7f7;
+    padding: 0 16px;
+    border-radius: 6px;
+    line-height: 50px;
+    margin: 6px 3px;
+    display: inline-block;
+  }
+
+  .oxxo-ticket-box .payment-code-c2 span {
+    background-color: #f7f7f7;
+    padding: 3px 14px;
+    border-radius: 6px;
+    line-height: 42px;
+    margin: 6px 5px;
+    display: inline-block;
+  }
+
+  .oxxo-ticket-box .payment-expire-date {
+    display: inline-block;
+    margin: 8px auto 8px;
+    font-size: 13px;
+    color: #666;
+  }
+
+  .oxxo-ticket-box .payment-iframe-info p:first-child {
+    font-size: 18px;
+    letter-spacing: 0px;
+    padding: 0px;
+    margin-top: 0;
+  }
+
+  .oxxo-ticket-box .payment-iframe-info {
+    font-size: 14px;
+    color: #666;
+    letter-spacing: 1px;
+    padding: 0px;
+  }
+
+  .oxxo-ticket-box .payment-code img {
+    padding: 20px 20px 20px 16px;
+    position: absolute;
+  }
+
+  .oxxo-ticket-box .payment-ticket-line {
+    height: 1px;
+    border-top: 1px solid #ddd;
+    padding: 20px 0 10px;
+  }
+
+  .oxxo-ticket-box .payment-ticket-line-c,
+  .oxxo-ticket-box .payment-ticket-line-c2 {
+    height: 1px;
+    border-top: 1px solid #ddd;
+    padding: 20px 0 0;
+  }
+
+  .oxxo-ticket-box .payment-secondary-info {
+    display: inline-block;
+    padding-left: 18px;
+    color: #666;
+    margin: 10px 0;
+  }
+  /* Expandable Widget */
+
+  .payment-detail-widget {
+    display: none;
+  }
+
+  div.payment-detail-widget-2 {
+    border: 1px solid #DEDEDE;
+    border-radius: 5px 5px 0px 0px;
+    margin-bottom: 0px;
+    color: #666;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 14px 40px 14px 20px;
+    position: relative;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+    width: auto;
+    text-align: left;
+  }
+
+  .payment-detail-widget + div label {
+    border: 1px solid #DEDEDE;
+    border-radius: 5px;
+    color: #666;
+    cursor: pointer;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px 0px;
+    padding: 14px 40px 14px 20px;
+    position: relative;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+    width: auto;
+    text-align: left;
+    background: url('https://static.mlstatic.com/org-img/emails/icons/icon_expandable_sprite.png') no-repeat;
+    background-position: 95% 18px;
+  }
+
+  .payment-detail-widget:checked + div label,
+  .portal-shipping-widget:checked + div label {
+    border-radius: 5px 5px 0px 0px;
+    margin-bottom: 0px;
+    background-position: 95% -32px;
+  }
+
+  .payment-detail-widget + div .purchases-expandable-container-c2 {
+    display: none;
+  }
+
+  .payment-detail-widget:checked + div .purchases-expandable-container-c2 {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .payment-container {
+    overflow: hidden;
+    padding: 30px 0 20px;
+  }
+
+  .payment-container-c {
+    border: 1px solid #DEDEDE;
+    border-image: none;
+    border-radius: 0px 0px 5px 5px;
+    overflow: hidden;
+    padding: 30px 0 20px;
+    border-top: none;
+  }
+
+  .payment-container-c2 {
+    border: 1px solid #DEDEDE;
+    border-image: none;
+    border-radius: 0px 0px 5px 5px;
+    overflow: hidden;
+    padding: 20px 0 10px;
+    border-top: none;
+  }
+
+  .payment-container p {
+    padding: 0;
+  }
+
+  .payment-button {
+    display: block;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+
+  }
+
+	.payment-button,
+	.payment-button:hover,
+	.payment-button:link {
+		text-decoration: none;
+	}
+
+  .ch-price sup {
+    font-size: 10px;
+    vertical-align: text-top;
+    line-height: 1em;
+  }
+</style><style type="text/css"></style>
+
+</head>
+<body>
+
+<input type="hidden" id="reference_id" value="88316820356511011601066598">
+<div class="oxxo-ticket-box oxxo-ticket-box-c2">
+
+	<div class="payment-info-container-c2">
+		<div class="oxxo-ticket-header">
+			<img src="./pago_files/mp3_110x27.gif" height="27">
+		</div>
+		<h1 class="payment-info">Paga en la tienda OXXO más cercana.</h1>
+
+		<div class="payment-secondary-info">Díctale este código al cajero y listo.</div>
+
+		<div class="payment-code-c2">
+			<span>88316</span><span>8203</span><span>5651</span><span>10116</span><span>0106</span><span>6598</span>
+		</div>
+
+    <div class="payment-expire-date">Tienes hasta el <strong>04/01/2016</strong> para hacerlo.</div>
+
+		<div class="payment-barcode">
+      <img src="./pago_files/image" width="300px">
+      <span>88316820356511011601066598</span>
+    </div>
+
+		<input id="payment-detail-widget" class="payment-detail-widget" type="checkbox">
+		<div>
+			<label for="payment-detail-widget">
+				<span>Concepto</span>
+			</label>
+			<div class="ch-expandable-container purchases-expandable-container-c2" aria-expanded="false">
+				<div class="payment-container-c2">
+					<p class="payment-reason-c2">Aliexpress.com</p>
+					<p class="payment-price-c2"><strong class="ch-price">$ 1,066.59</strong></p>
+					<p class="payment-oxxo-tax">(No incluye la comisión por operación de OXXO)</p>
+				</div>
+			</div>
+		</div>
+    <a class="payment-button" onclick="javascript:top.focus();window.print()" href="./pago_files/pago.html">Imprimir</a>
+	</div>
+	<br>
+</div>
+</body></html>

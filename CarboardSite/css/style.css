@@ -1,0 +1,96 @@
+@import url(../font/flaticon.css);
+header{
+	background: url(../img/demo.jpg) fixed center;
+	background-size: cover;
+
+
+}
+i{}
+.logo{
+	height: 60px;
+	margin: 1rem;
+	display: inline-block;
+}
+.nv{
+	padding: 1rem;
+	overflow: hidden;
+	position: fixed;
+}
+.title{
+	margin-top: 260px;
+}
+.hola{
+	font-size: 3rem;
+}
+.menu{
+	float: right;
+	margin-top: 2rem;
+}
+.menu a{
+	color: #ff5252;
+	display: inline-block;
+	padding: 1rem;
+	transition: all .5s;
+}
+#getnow{
+	display: inline-block;
+	width: 350px;
+	font-size: 1.2rem;
+	padding: 2rem;
+	background-color: #ff5252;
+	color: white;
+	border-radius: 0px 10px 10px 10px;
+	text-align: center;
+	box-shadow: 0px 10px 0px #d50000;
+	transition:all .5s;
+
+}
+#getnow:hover{
+	box-shadow: 0px 8px 0px #b71c1c;
+	background-color: #e53935;
+	border-radius: 10px 10px 10px 10px;
+}
+.menu a:hover{
+	color: #263238;
+}
+.f-gray{
+	background: #263238;
+	color: white;
+	padding: 
+	1rem;
+}
+.sub{
+	text-align: right;
+	margin-top: 1rem;
+}
+.f-title{
+	text-transform: uppercase;
+	/*text-align: center;*/
+	font-weight: bold;
+}
+footer span{
+	color: #cfd8dc;
+}
+footer a.block{
+	display: block;
+}
+footer a{
+	color: #cfd8dc;
+	transition: all .5s;
+}
+footer a:hover{
+	color: #ff5252;
+}
+hr{
+	color: #37474f;
+	border-color: #37474f;
+}
+footer span{
+	display: block;
+}
+footer a.social{
+	margin: 1rem;
+}
+footer a.social:hover{
+	
+}

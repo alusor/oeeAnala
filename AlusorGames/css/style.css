@@ -1,0 +1,56 @@
+header{
+		margin-right: 300px;
+
+	height: 100vh;
+	//display: table-cell;
+	vertical-align: middle;
+	background: url(../img/background.jpg) center 100% fixed;
+	background-size: cover;
+	display: table;
+}
+header h1{
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+}
+.menu{
+	height:100vh;
+	background: black;
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 300px;
+	list-style: none;
+	background-color: #60a6d6;
+}
+.table {
+	display: table-cell;
+	vertical-align: middle;
+	min-height: 100%;
+	overflow: auto;
+}
+.menu img{
+	display: block;
+	margin: auto;
+	width: 100%;
+}
+.menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.menu ul li a{
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	padding: 1.5rem 0rem;
+	color: rgba(220,217,216,1);
+	//background: #5a9bc4;
+	text-transform: uppercase;
+	transition: .5s all;
+}
+.menu ul li a:hover{
+	background: rgba(220,217,216,.5);
+}

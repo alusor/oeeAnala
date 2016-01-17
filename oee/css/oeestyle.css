@@ -1,0 +1,162 @@
+body{
+	background: #263238;
+}
+.a2{
+	background: url(../img/Production2.jpg) fixed center 100%;
+	background-size: cover;
+	color: white;
+}
+.p1{
+	padding: 1rem;
+	background: rgba(1,1,1,.2);
+}
+.glyph {
+        display: inline-block;
+        width: 120px;
+        margin: 10px;
+        text-align: center;
+        vertical-align: top;
+        background: #FFF;
+    }
+    .glyph .glyph-icon {
+        padding: 10px;
+        display: block;
+        font-family:"Flaticon";
+        font-size: 64px;
+        line-height: 1;
+    }
+.a2 .over{
+	background: rgba(174,40,18,.2);
+}
+header{
+	background: url(../img/people.jpg) fixed center rgba(1,0,0,.5);
+	background-size: cover;
+}
+.menu{
+	padding: 1rem;
+	overflow: hidden;
+}
+.content2{
+	padding: 2rem 0rem;
+}
+.brand-logo{
+	height: 75px;
+	float: left;
+}
+.m1{
+	padding-top: 2rem;
+}
+.a1{
+	padding: 2rem 0rem;
+}
+.j-t{
+	text-align: justify;
+}
+.mid-table{
+	padding-top: 150px;
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+}
+.mid-table h1{
+}
+h6.j-t{
+	padding: 1rem;
+}
+ul{
+	margin-top: 3rem;
+	float: right;
+	letter-spacing: .1rem;
+	text-transform: uppercase;
+}
+ul li{
+	display: inline-block;
+	color: rgb(174,40,18);
+}
+ul li a{
+	color: rgb(174,40,18);
+	transition: all .5s;
+}
+ul li a:hover{
+	color: #e74c3c;
+}
+.content{
+	color: white;
+	width: 100%;
+	text-align: center;
+	height: 550px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+/*Formulario*/
+/* label color */
+   .input-field label {
+     color: #000;
+   }
+   /* label focus color */
+   .input-field input[type=text]:focus + label {
+     color: #000;
+   }
+   /* label underline focus color */
+   .input-field input[type=text]:focus {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   /* valid color */
+   .input-field input[type=text].valid {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   /* invalid color */
+   .input-field input[type=text].invalid {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: #000;
+   }
+
+/*Footer*/
+.f-gray{
+	background: #263238;
+	color: white;
+	padding: 
+	1rem;
+}
+.sub{
+	text-align: right;
+	margin-top: 1rem;
+}
+.f-title{
+	text-transform: uppercase;
+	/*text-align: center;*/
+	font-weight: bold;
+}
+footer span{
+	color: #cfd8dc;
+}
+footer a.block{
+	display: block;
+}
+footer a{
+	color: #cfd8dc;
+	transition: all .5s;
+}
+footer a:hover{
+	color: #ff5252;
+}
+hr{
+	color: #37474f;
+	border-color: #37474f;
+}
+footer span{
+	display: block;
+}
+footer a.social{
+	margin: 1rem;
+}
+footer a.social:hover{
+	
+}

@@ -1,0 +1,55 @@
+@font-face {
+	font-family: "Flaticon";
+	src: url("flaticon.eot");
+	src: url("flaticon.eot#iefix") format("embedded-opentype"),
+	url("flaticon.woff") format("woff"),
+	url("flaticon.ttf") format("truetype"),
+	url("flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+        font-size: 35px;
+font-style: normal;
+margin-left: 20px;
+padding: 1rem;
+border:solid;
+border-radius: 50%;
+}.flaticon-analysis:before {
+	content: "\e000";
+}
+.flaticon-analytics2:before {
+	content: "\e001";
+}
+.flaticon-analytics9:before {
+	content: "\e002";
+}
+.flaticon-data-analytics1:before {
+	content: "\e003";
+}
+.flaticon-fair14:before {
+	content: "\e004";
+}
+.flaticon-films1:before {
+	content: "\e005";
+}
+.flaticon-gameconsole6:before {
+	content: "\e006";
+}
+.flaticon-glasses44:before {
+	content: "\e007";
+}
+.flaticon-hand101:before {
+	content: "\e008";
+}
+.flaticon-increasing11:before {
+	content: "\e009";
+}
+.flaticon-stock5:before {
+	content: "\e00a";
+}
+.flaticon-videogame10:before {
+	content: "\e00b";
+}

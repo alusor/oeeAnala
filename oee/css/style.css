@@ -1,0 +1,178 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+body,html{
+	padding: 0px;
+	margin:0px;
+	/*font-size: 16px;*/
+}
+*{
+	font-family: 'Open Sans', sans-serif;
+}
+.container{
+	width:85%;
+	margin: 0 auto;
+}
+
+header{
+	background: url(../img/people.jpg) center rgba(1,0,0,.5);
+	background-size: cover;
+	text-align: center;
+	color: #ecf0f1;
+	overflow: hidden;
+}
+nav{
+	width: 80%;
+	padding-top: 40px;
+	margin: 0px auto;
+	text-align: left;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #ecf0f1;
+	font-weight: 600;
+	font-size: 1.3rem;
+	letter-spacing: .05rem;
+	padding:1rem;
+	transition: all .5s;
+}
+nav ul li a:hover{
+	color: #e74c3c;
+}
+.logo{
+	height: 5rem;
+	display: inline-block;
+}
+nav ul{
+	display: inline-block;
+	float: right;
+}
+nav{
+}
+.all{
+background: rgba(1, 0, 0,.5);
+}
+header .container{
+	text-align: center;
+	height: 400px;
+	display: table-cell;
+	vertical-align: middle;	
+}
+#more{
+	text-decoration: none;
+	display: inline-block;
+	padding: 1rem 3rem;
+	border-style: solid;
+	border-radius: 8px;
+	border-color: #ecf0f1;
+	color: #ecf0f1;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 4rem;
+	transition: all .5s;
+}
+#more:hover{
+	background: rgba(192, 57, 43,.5);
+	border-color: rgba(192, 57, 43,.5);
+	border-radius: 0px;
+}
+#cpu{
+	margin: 1rem;+
+	float: left;
+	width: 40%;j
+	vertical-align: middle;
+}
+.content{
+	color: #1c1c1c;
+	text-align: center;
+}
+.content .container h1{
+	font-size: 3rem;
+}
+.content .container p{
+	text-align: justify;
+	font-size: 1.2rem;
+}
+.content .container{
+	overflow: auto;
+}
+.two{
+	background: #2980b9;
+	padding: 3rem 0rem;
+}
+.two ul li{
+	list-style: none;
+	color: #ecf0f1;
+	display: table-cell;
+	vertical-align: middle;
+}
+.two ul li img{
+	height: 130px;
+}
+.three{
+	background: #e74c3c;
+}
+input[type="text"]{
+	border-style: none;
+	border: 2px solid;
+	border-color: #ecf0f1;
+	/*border-radius: 8px;*/
+	text-align: center;
+	padding: 1rem 3rem;	
+	background:none;
+	color: #ecf0f1;
+	text-transform: uppercase;
+	display: inline-block;
+	width: 300px;
+	margin: 1rem;
+	transition: all .5s;
+
+}
+input[type="text"]:focus{
+	background: black;
+
+}
+.five{
+	background: rgb(174,40,18);
+	padding-bottom: 3rem;
+}
+.cop{
+	background: #2c3e50;
+	color: #ecf0f1;
+	padding: 1rem;
+	text-align: center;
+}
+.container form button{
+	background: #34495e;
+	width: 200px;
+	border-style: none;
+	border-color: #ecf0f1;
+	padding: 1rem;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #ecf0f1;
+	transition:all .5s;
+}
+.container form button:hover{
+	background: #2c3e50;
+}
+
+/*
+	Color blanco 
+	Logo blanco/rojo
+	Clientes:
+			incusoft
+			CETI
+			Incalza
+			Andrea badi
+			Reto Zapopan
+			Hacker Garage
+			Laboratorios pisa
+			pympsa
+			Lean six sigma institute
+			Socconini consultores*
+			blanco/imagen/blanco
+*/
